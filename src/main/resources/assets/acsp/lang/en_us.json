@@ -1,0 +1,6 @@
+{
+  "death.attack.parkour_death": "%1$s died because they were foolish enough to step on a kill block.",
+  "block.acsp.parkour_start": "Parkour Start",
+  "block.acsp.parkour_kill": "Parkour Kill",
+  "block.acsp.parkour_block": "Parkour Block"
+}

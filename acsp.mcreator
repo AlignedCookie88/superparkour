@@ -1,0 +1,119 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ParkourStart",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "parkour_start"
+    },
+    {
+      "name": "CraftParkourStart",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_parkour_start"
+    },
+    {
+      "name": "ParkourBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "parkour_block"
+    },
+    {
+      "name": "KillPlayer",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "kill_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ParkourKill",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "parkour_kill"
+    },
+    {
+      "name": "GenerateParkour",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generate_parkour",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "courses_finished",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "death.attack.parkour_death": "%1$s died because they were foolish enough to step on a kill block.",
+      "block.acsp.parkour_start": "Parkour Start",
+      "block.acsp.parkour_kill": "Parkour Kill",
+      "block.acsp.parkour_block": "Parkour Block"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "acsp",
+    "modName": "Super Parkour",
+    "version": "beta 1.0",
+    "description": "A mod that adds randomly generated parkour courses",
+    "author": "AlignedCookie88",
+    "websiteURL": "None",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator",
+    "modElementsPackage": "com.alignedcookie.mc.mod.superparkour",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

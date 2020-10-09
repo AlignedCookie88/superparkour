@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "acsp:blocks/parkour_start_bottom",
+    "up": "acsp:blocks/parkour_start_top",
+    "north": "acsp:blocks/parkour_start_side",
+    "east": "acsp:blocks/parkour_start_side",
+    "south": "acsp:blocks/parkour_start_side",
+    "west": "acsp:blocks/parkour_start_side",
+    "particle": "acsp:blocks/parkour_start_bottom"
+  }
+}

@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="acsp"
+version="beta 1.0"
+displayName="Super Parkour"
+credits="Created using mod maker MCreator"
+displayURL="https://mcreator.net"
+authors="AlignedCookie88"
+description='''
+A mod that adds randomly generated parkour courses
+'''
+
+[[dependencies.acsp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
